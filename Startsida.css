@@ -1,0 +1,56 @@
+/* CSS styles for Test.css */
+
+body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; /* Increased spacing between the boxes */
+    margin-top: 50px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .box span {
+    font-weight: bold;
+    font-size: 28px; /* Increased font size for the titles */
+  }
+  

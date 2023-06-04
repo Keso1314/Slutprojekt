@@ -1,0 +1,60 @@
+/* CSS styles for Test-2.html */
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #333333;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-suggestions {
+  margin-top: 10px;
+}
+
+.box-details {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.box-details h2 {
+  margin-bottom: 20px;
+}
+
+.box-details img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
